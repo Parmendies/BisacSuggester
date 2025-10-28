@@ -20,10 +20,10 @@ npm run dev
 POST /api/suggest
 ```
 
-## Test
+## Local Test
 
 ```bash
-npm run test
+curl -X POST http://localhost:3000/api/predict -H "Content-Type: application/json" -d "{\"title\":\"Örnek Kitap Başlığı\",\"context\":\"Kitabın kısa özeti burada.\",\"cart\":[\"kategori1\",\"kategori2\"],\"curta\":\"Kısa açıklama\"}"
 ```
 
 ## License
