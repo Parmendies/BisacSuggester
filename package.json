@@ -5,7 +5,7 @@
   "description": "Node.js + TypeScript API for BISAC code suggestion",
   "scripts": {
     "start": "ts-node src/server.ts",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts"
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/server.ts"
   },
   "keywords": [
     "BISAC",
